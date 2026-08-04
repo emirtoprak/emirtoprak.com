@@ -6,7 +6,7 @@
 <title>Emir Toprak — Mobile Developer</title>
 <meta name="description" content="Emir Toprak is a mobile developer from İzmir, Türkiye building Flutter apps used by millions across iOS, Android, watchOS and Wear OS.">
 <meta property="og:title" content="Emir Toprak — Mobile Developer">
-<meta property="og:description" content="Flutter apps used by millions — prayer times, Quran and faith-tech products across iOS, Android, watchOS and Wear OS.">
+<meta property="og:description" content="Flutter apps with a combined 100M+ users — prayer times, Quran and faith-tech products across iOS, Android, watchOS and Wear OS.">
 <meta property="og:url" content="https://emirtoprak.com">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230e1a16'/><text x='50' y='68' font-size='48' text-anchor='middle' fill='%2334d399' font-family='Georgia'>ET</text></svg>">
@@ -120,6 +120,18 @@ section{padding:84px 0}
 .oss-item .name svg{width:16px;height:16px;fill:var(--muted)}
 .oss-item .desc{color:var(--muted);font-size:13.5px}
 
+.timeline{position:relative;margin-left:6px;padding-left:36px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:44px}
+.t-item{position:relative}
+.t-item::before{content:"";position:absolute;left:-41px;top:7px;width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--accent-dim)}
+.t-meta{font-size:12.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:7px}
+.t-item h3{font-size:20px;margin-bottom:9px}
+.t-item p{color:var(--muted);font-size:15px;max-width:700px}
+.edu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:56px}
+.edu-card{border:1px solid var(--line);border-radius:14px;padding:20px 22px;background:var(--card)}
+.edu-card .k{font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.edu-card .v{color:var(--text);font-weight:600;font-size:15px}
+.edu-card .d{color:var(--muted);font-size:13.5px;margin-top:3px}
+
 .about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:start}
 .about-grid p{color:var(--muted);margin-bottom:18px;font-size:16px}
 .about-grid p strong{color:var(--text);font-weight:500}
@@ -169,6 +181,7 @@ footer{padding:30px 0;text-align:center;color:var(--muted);font-size:13.5px}
       <a class="logo" href="#">Emir Toprak</a>
       <div class="nav-links">
         <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <a class="nav-git" href="https://github.com/emirtoprak" target="_blank" rel="noopener" aria-label="GitHub">
@@ -184,7 +197,7 @@ footer{padding:30px 0;text-align:center;color:var(--muted);font-size:13.5px}
     <div class="wrap">
       <div class="kicker">Mobile Developer · İzmir, Türkiye</div>
       <h1>Emir Toprak</h1>
-      <p class="lead">I build <strong>Flutter apps used by millions</strong> — prayer times, Quran and faith-tech products shipped across <strong>iOS, Android, watchOS and Wear OS</strong>, with deep native integrations like home-screen widgets and Live Activities.</p>
+      <p class="lead">I build <strong>Flutter apps with a combined 100M+ users</strong> — prayer times, Quran and faith-tech products shipped across <strong>iOS, Android, watchOS and Wear OS</strong>, with deep native integrations like home-screen widgets and Live Activities.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="#work">See my work</a>
         <a class="btn btn-ghost" href="https://github.com/emirtoprak" target="_blank" rel="noopener">
@@ -266,6 +279,48 @@ footer{padding:30px 0;text-align:center;color:var(--muted);font-size:13.5px}
     </div>
   </section>
 
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <div class="t-meta">Jan 2024 — Present · İzmir, Türkiye</div>
+          <h3>Flutter Developer · AssistantApp</h3>
+          <p>Working on consumer apps with a combined user base of over 100 million — Muslim App, Qibla Finder, Quran 360 and Miracle. Active across the entire lifecycle: mobile development, analytics event tracking, data analysis, product management and QA. Currently focused primarily on Muslim App — its continuous development, optimization and user-experience improvements.</p>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-meta">Jul 2023 — Dec 2023 · İzmir, Türkiye</div>
+          <h3>Volunteer Intern · AssistantApp</h3>
+          <p>Built the Azkar Tasbih Counter app from scratch with the team — feature development, UI implementation, testing and release — while working in an agile environment with code reviews and project planning.</p>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-meta">Feb 2023 — Jun 2023 · İzmir, Türkiye</div>
+          <h3>Intern · Tolkido</h3>
+          <p>Hands-on work with Arduino-based development kits and NFC: configured and programmed NFC tags for embedded communication and tested NFC integration between Android applications and Arduino hardware.</p>
+        </div>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="k">Education</div>
+          <div class="v">Bandırma University</div>
+          <div class="d">Associate Degree, Computer Programming · 2021 – 2023</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="k">Certification</div>
+          <div class="v">Flutter App Development (Android & iOS)</div>
+          <div class="d">Udemy · 2023</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="k">Languages</div>
+          <div class="v">Turkish · English</div>
+          <div class="d">Native · B1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="about">
     <div class="wrap">
       <div class="section-head reveal">
@@ -282,17 +337,22 @@ footer{padding:30px 0;text-align:center;color:var(--muted);font-size:13.5px}
             <span class="chip">Flutter</span>
             <span class="chip">Dart</span>
             <span class="chip">Swift / SwiftUI</span>
-            <span class="chip">Kotlin / Compose</span>
-            <span class="chip">WidgetKit</span>
-            <span class="chip">Live Activities</span>
-            <span class="chip">watchOS</span>
-            <span class="chip">Wear OS</span>
+            <span class="chip">Kotlin</span>
+            <span class="chip">Java</span>
+            <span class="chip">Provider · Bloc · Riverpod · GetX</span>
+            <span class="chip">MVVM · Clean Architecture</span>
             <span class="chip">Firebase</span>
-            <span class="chip">Provider / MVVM</span>
-            <span class="chip">REST APIs</span>
-            <span class="chip">CI & Store Delivery</span>
-            <span class="chip">AdMob / Mediation</span>
-            <span class="chip">RevenueCat</span>
+            <span class="chip">Supabase</span>
+            <span class="chip">AWS · Node.js</span>
+            <span class="chip">Hive · Sqflite · Firestore</span>
+            <span class="chip">RESTful APIs</span>
+            <span class="chip">WidgetKit · Live Activities</span>
+            <span class="chip">watchOS · Wear OS</span>
+            <span class="chip">RevenueCat · Adapty</span>
+            <span class="chip">FCM</span>
+            <span class="chip">Google & Apple Maps</span>
+            <span class="chip">Figma</span>
+            <span class="chip">Git · GitLab</span>
           </div>
         </div>
       </div>
